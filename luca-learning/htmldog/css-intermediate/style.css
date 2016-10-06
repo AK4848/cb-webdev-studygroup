@@ -1,0 +1,55 @@
+a:hover {
+    color: green;
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Impact;
+    margin: 0;
+    padding: 0;
+}
+
+#introduction {
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+#list-section {
+    width: 48%;
+    height: 25%;
+    display: inline-block;
+}
+
+#table-section {
+    width: 48%;
+    height: 25%;
+    display: inline-block;
+}
+
+#img-hyperlink-section {
+    clear: both;
+    text-align: center;
+}
+
+.bordered-table {
+    border: 1px solid black;
+}
+
+.container {
+    background-color: #AAD5E3;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.google-image-swap-picture {
+    width: 256px;
+    height: 256px;
+}
+
+.google-image-swap-picture:hover {
+    content: url("https://static.start.me/favicons/nwbojkfx8vy4zjtoowbv");
+    width: 256px;
+    height: 256px;
+}
